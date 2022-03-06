@@ -6,7 +6,7 @@ Or simply download `layout.exe` from Releases tab.
 The script uses 
 * `LShift` + `LAlt` to switch between `MAIN` group of layouts.
 * `LShift` + `LCtrl` to switch between `EXTRA` group of layouts.
-* `RWin + 0` to `RWin + 9` to imitate Numkeys, therefore completely overwriting behaviour of `RWin` (i just don't need it, idk maybe you do)
+* `RControl + 0` to `RControl + 9` to imitate Numkeys, therefore completely overwriting behaviour of `RControl` (i just don't need it, idk maybe you do)
 
 When switching to another group, your system will use the first layout of it.
 
@@ -19,3 +19,4 @@ Edit `MAIN_LANGUAGES` and `EXTRA_LANGUAGES` variables, following the syntax `Lay
 
 ## Known issues
 * I was unable to switch layouts while in the Start Menu.
+* I had to change the hotkey of Nums because of the way in which `Rwin`'s function is hardcoded.

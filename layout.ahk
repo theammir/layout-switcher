@@ -46,17 +46,18 @@ SetDefaultKeyboard(EXTRA_LANGUAGES[elangIndex])
 return
 
 ; Mapping Num keys
-~RWin::F13
-RWin & 0::Numpad0
-RWin & 1::Numpad1
-RWin & 2::Numpad2
-RWin & 3::Numpad3
-RWin & 4::Numpad4
-RWin & 5::Numpad5
-RWin & 6::Numpad6
-RWin & 7::Numpad7
-RWin & 8::Numpad8
-RWin & 9::Numpad9
+#If GetKeyState("RControl", "P")
+0::Numpad0
+1::Numpad1
+2::Numpad2
+3::Numpad3
+4::Numpad4
+5::Numpad5
+6::Numpad6
+7::Numpad7
+8::Numpad8
+9::Numpad9
+return
 
 SetDefaultKeyboard(LocaleID){
 	Global
